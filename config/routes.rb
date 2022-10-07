@@ -4,5 +4,5 @@ Rails.application.routes.draw do
   get 'static_pages/about'
   resources :microposts
   resources :animals
-root 'animals#index'
+root 'static_pages#home'
 end
